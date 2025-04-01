@@ -15,7 +15,7 @@ This tool is used to automate the process of marking attendance in Ze* H*. It us
 Bonus work:
 - You can use github actions to automate the process of uploading the zip to the lambda function. You can check the .github/workflows/main.yml for reference in this repo.
 
-# License
+# License under CC BY-NC 4.0
 ```
 For testing and educational purposes only. Use at your own risk. I'm not responsible for any misuse of this tool.
 ```
