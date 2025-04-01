@@ -6,9 +6,9 @@ This tool is used to automate the process of marking attendance in Ze* H*. It us
 4. Upload the zip to the lambda function.
 3. Create a S3 bucket and upload the chromium driver (chromium-v122.0.0-pack.tar)
 4. Now update configurations in the lambda function and add some env variables
-    - `S3_CHROMIUM_URL` : S3 URL of the chromium driver
-    - email : Your email
-    - password : Your zen hr password
+    - S3_CHROMIUM_URL : S3 URL of the chromium driver
+    - EMAIL : Your email
+    - PASSWORD : Your ze* hr password
 5. Add a trigger to the lambda function, you can use AWS EventBridge for scheduling the function.
 6. Done! .
 
@@ -19,5 +19,8 @@ Bonus work:
 ```
 For testing and educational purposes only. Use at your own risk. I'm not responsible for any misuse of this tool.
 ```
+
+# Future
+- We can even automate this process of creating the lambda and setting up the event through AWS SDK but its a tech debt xD :) 
 
 # Great hamsof
